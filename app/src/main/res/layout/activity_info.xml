@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="91dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:id="@+id/Judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beberapa Cara Praktis Untuk Mengurangi Biaya Bahan Bakar"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/quantum_black_100"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/subjudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gunakan transportasi umum"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/quantum_black_100"
+                android:gravity="left" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/quantum_black_100"
+                android:textSize="14dp"
+                android:text="Berjalan kaki atau bersepeda tidak mengkonsumsi bahan bakar, sehingga tidak mengakumulasi biaya bahan bakar. Dalam banyak kasus, alternatif angkutan umum selain mobil seperti bus, kereta api, dan troli merupakan pilihan yang tepat untuk mengurangi biaya bahan bakar. Karena berbagi tumpangan bersifat umum, biaya bahan bakar untuk mengoperasikan angkutan umum umumnya lebih rendah daripada biaya bahan bakar yang terkait dengan setiap individu yang mengoperasikan kendaraan mereka sendiri. Di beberapa tempat, angkutan umum  gratis. Mempertimbangkan biaya yang terkait dengan memiliki atau menyewa mobil menciptakan lebih banyak insentif untuk menggunakan moda transportasi lain." />
+            <TextView
+                android:id="@+id/subjudul2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Carpool"
+
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/quantum_black_100"
+                android:gravity="left" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/quantum_black_100"
+                android:textSize="14dp"
+                android:text="Juga dikenal sebagai berbagi mobil, carpooling adalah pengaturan antara dua orang atau lebih untuk melakukan perjalanan ke tujuan bersama dalam satu kendaraan. Meskipun mobil yang lebih berat mengkonsumsi bahan bakar sedikit lebih banyak, biasanya jauh lebih efisien daripada dua orang yang mengendarai mobil terpisah menuju tujuan yang sama."
+                />
+
+            <TextView
+                android:id="@+id/subjudul3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gunakan kendaraan yang lebih hemat bahan bakar"
+
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/quantum_black_100"
+                android:gravity="left" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/quantum_black_100"
+                android:textSize="14dp"
+                android:text="Mengendarai mobil yang lebih kecil membuat perbedaan besar  biaya bahan bakar sekitar setengah untuk sedan kecil daripada SUV yang sangat besar. Demikian pula, kendaraan dengan mesin yang kurang bertenaga dari yang Anda butuhkan. Jangan membayar mesin delapan silinder jika empat silinder sudah cukup. Kecuali jika Anda mengangkut beban berat secara rutin, biaya tambahan mesin yang lebih besar membutuhkan banyak uang  untuk bensin."
+                />
+
+            <TextView
+                android:id="@+id/subjudul4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Setel mesin"
+
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/quantum_black_100"
+                android:gravity="left" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/quantum_black_100"
+                android:textSize="14dp"
+                android:text="Mesin yang disetel dengan benar memaksimalkan tenaga dan dapat meningkatkan efisiensi bahan bakar secara signifikan. Tetapi penyetelan mesin mobil sering dilakukan untuk meningkatkan tenaga  itu bukan cara untuk menghemat bahan bakar. Pastikan tuner mengerti pesannya.
+
+Memperbaiki mobil yang terlihat tidak selaras atau gagal dalam uji emisi dapat meningkatkan jarak tempuh bahan bakar rata-rata 4 persen,jumlah ini akan bervariasi tergantung pada sifat perbaikannya.
+
+Memperbaiki masalah perawatan yang serius, seperti sensor oksigen yang rusak, dapat meningkatkan jarak tempuh Anda sebanyak 40 persen.
+
+Menempatkan ornamen dan efek ground, kit aerodinamis, dan foil udara, seperti spoiler tutup dek mungkin membuat Anda merasa nyaman, tetapi juga meningkatkan tarikan mobil dan membuatnya membutuhkan lebih banyak bahan bakar. Aksesori semacam itu tidak memberikan peningkatan penanganan yang nyata, meskipun mungkin terlihat bagus di mobil Anda. Selain itu, letakkan rambu atau muatan di atap agar benda miring ke depan. Ini akan mengurangi area depan objek, dan ini akan menyebabkan lebih sedikit hambatan, dan menyebabkan Anda menggunakan lebih sedikit bahan bakar."
+                />
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
